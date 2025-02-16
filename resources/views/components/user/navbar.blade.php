@@ -51,7 +51,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="/about"
+                <a href="{{ route('about') }}"
                     class="text-white hover:bg-white/10 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:-translate-y-0.5">
                     About
                 </a>
@@ -96,7 +96,7 @@
                     On Sale
                 </a>
             </div>
-            <a href="/about"
+            <a href="{{ route('about') }}"
                 class="block text-white hover:bg-white/10 px-3 py-2 rounded-md text-base font-medium transition-colors duration-300">
                 About
             </a>
