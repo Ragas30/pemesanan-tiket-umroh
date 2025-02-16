@@ -40,13 +40,9 @@
                     <div
                         class="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top-right">
                         <div class="py-1">
-                            <a href="/products/new"
+                            <a href="{{ route('produk') }}"
                                 class="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors duration-300">
-                                New Arrivals
-                            </a>
-                            <a href="/products/featured"
-                                class="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors duration-300">
-                                Featured
+                                Paket Kami
                             </a>
                             <a href="/products/sale"
                                 class="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors duration-300">
@@ -62,6 +58,10 @@
                 <a href="/contact"
                     class="text-white hover:bg-white/10 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:-translate-y-0.5">
                     Contact
+                </a>
+                <a href="{{ route('loginPage') }}"
+                    class="text-white hover:bg-white/10 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:-translate-y-0.5">
+                    Login
                 </a>
             </div>
         </div>
@@ -103,6 +103,10 @@
             <a href="/contact"
                 class="block text-white hover:bg-white/10 px-3 py-2 rounded-md text-base font-medium transition-colors duration-300">
                 Contact
+            </a>
+            <a href="{{ route('loginPage') }}"
+                class="block text-white hover:bg-white/10 px-3 py-2 rounded-md text-base font-medium transition-colors duration-300">
+                Login
             </a>
         </div>
     </div>
